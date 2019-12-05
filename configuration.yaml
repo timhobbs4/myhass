@@ -1,0 +1,47 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+http:
+  base_url: example.duckdns.org:8123
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
+  
+homeassistant:
+  packages: !include_dir_named packages
+  customize: !include customize.yaml
+  time_zone: Australia/Brisbane
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+
+discovery:
+zone: !include zones.yaml
+ios: 
+media_player:
+  - platform: yamaha
+    name: yamaha_receiver
+    host: !secret yamaha_host
+    source_names:
+      HDMI1: Blu Ray
+      HDMI3: Apple TV
+
+camera: !include camera.yaml
+climate:
+  - platform: smartir
+    name: Living Room AC
+    unique_id: living_room_ac
+    device_code: 1120
+    controller_data: !secret rm_mini_host
+switch:
+  - platform: broadlink
+    host: !secret rm_mini_host
+    mac: !secret rm_mini_mac

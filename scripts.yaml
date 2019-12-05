@@ -1,0 +1,72 @@
+atv_home:
+  alias: atv_home
+  sequence:
+  - data:
+      command:
+      - home
+      entity_id: remote.living_room
+    service: remote.send_command
+atv_left:
+  alias: atv_left
+  sequence:
+  - data:
+      command:
+      - left
+      entity_id: remote.living_room
+    service: remote.send_command
+atv_up:
+  alias: atv_up
+  sequence:
+  - data:
+      command:
+      - up
+      entity_id: remote.living_room
+    service: remote.send_command    
+atv_down:
+  alias: atv_down
+  sequence:
+  - data:
+      command:
+      - down
+      entity_id: remote.living_room
+    service: remote.send_command
+atv_right:
+  alias: atv_right
+  sequence:
+  - data:
+      command:
+      - right
+      entity_id: remote.living_room
+    service: remote.send_command
+atv_home_hold:
+  alias: atv_home_hold
+  sequence:
+  - data:
+      command:
+      - home_hold
+      entity_id: remote.living_room
+    service: remote.send_command
+atv_menu:
+  alias: atv_menu
+  sequence:
+  - data:
+      command:
+      - menu
+      entity_id: remote.living_room
+    service: remote.send_command
+atv_top_menu:
+  alias: atv_top_menu
+  sequence:
+  - data:
+      command:
+      - top_menu
+      entity_id: remote.living_room
+    service: remote.send_command
+atv_select:
+  alias: atv_select
+  sequence:
+  - data:
+      command:
+      - select
+      entity_id: remote.living_room
+    service: remote.send_command

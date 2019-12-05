@@ -1,0 +1,87 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "c5b38643d1d544cf81f2d32f333c59e1",
+                "options": {},
+                "source": "onboarding",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "appdaemon": false,
+                    "python_script": false,
+                    "sidepanel_icon": "mdi:alpha-c-box",
+                    "sidepanel_title": "Community",
+                    "theme": true,
+                    "token": "ec968ea98192cc4964c48fba5e8942c1b6b7833d"
+                },
+                "domain": "hacs",
+                "entry_id": "6fa19e40cd034eedb7fcba2f01f32194",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {},
+                "domain": "ios",
+                "entry_id": "d2c97b1c0fed4a7bafff806e8f42beae",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home Assistant iOS",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "fIedFZ88X6o:APA91bE3OtryKgG3l-FiJbeBE_O3qwDrt0APcx_-V0n5Jh1Dn_4RLyfF6r4T2DAZJF4wksC46hHPq_NV8PvGG4522fCrU0IyzK5cjjHoTk1OBbeSGRovKVU-2rsnKjGMTms_RrGVrl99",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2.0.0 (69)",
+                    "device_id": "1a244bb20a804534938084060ae8d088",
+                    "device_name": "Tim\u2019s iPhone X",
+                    "manufacturer": "Apple",
+                    "model": "iPhone X",
+                    "os_name": "iOS",
+                    "os_version": "13.2.3",
+                    "secret": "834e018f7ce987680b084ce431edb800cd80b35a03226602e12acec70463d0b6",
+                    "supports_encryption": true,
+                    "user_id": "574e81f8f32f4ef3afeb18eb0c11027b",
+                    "webhook_id": "d60530e964fa78b9556ec1a77bfea146a7958d87f2b4e8f352b16a64eb8fa520"
+                },
+                "domain": "mobile_app",
+                "entry_id": "8332f87e6271492997b4abc75ad8937f",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Tim\u2019s iPhone X",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

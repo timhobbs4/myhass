@@ -1,0 +1,163 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "tim"
+                },
+                "id": "da38379cdcfb47bebbbfa9753378be44",
+                "user_id": "574e81f8f32f4ef3afeb18eb0c11027b"
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": null,
+                "created_at": "2019-12-05T00:09:34.277426+00:00",
+                "id": "c8fc7a2551be44c1aaaf2c42622587dd",
+                "jwt_key": "7838fe7b175a82a3a7df36fda3e2953e4ccec95ca0982baf50bd0605d9d2657e3524e48ac54d58b4434d5414cca86dc7090227d1da81806c713809094b6d87c8",
+                "last_used_at": "2019-12-05T04:44:54.699838+00:00",
+                "last_used_ip": "172.30.32.2",
+                "token": "a2ff0093c1db100cf3b617cd9a0e921456af5cebffae179117957f52131e5edc5da2ab45a12a3075a40caac9d0f3f9e275749058f7e305a74a70ad21ad49dd84",
+                "token_type": "system",
+                "user_id": "61b0d2025cab43a39d0f01c14d3ec251"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.0.136:8123/",
+                "client_name": null,
+                "created_at": "2019-12-05T00:11:17.400490+00:00",
+                "id": "9106d4391cc04ec4b399206d0692a227",
+                "jwt_key": "e3acdcf6fca153769f47eb7c994d0edccff294ae9ea3d83606e76d27829129243076bd90e4e06c24e8fddd67ec3988be5933403c6e1dec2b90b589c4a6b38e05",
+                "last_used_at": "2019-12-05T00:11:17.400820+00:00",
+                "last_used_ip": "192.168.0.210",
+                "token": "76086b00cf36a608d3cc616c62d9ef82808d69bb93b89a4f9f463a1aa62129b8e7f8f1619bbc90105b5cc4d95944529edc97c7999a58189c60473c6883234925",
+                "token_type": "normal",
+                "user_id": "574e81f8f32f4ef3afeb18eb0c11027b"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.0.137:8123/",
+                "client_name": null,
+                "created_at": "2019-12-05T00:23:44.215161+00:00",
+                "id": "bcc8fa7c3753426480777bceb060d469",
+                "jwt_key": "954137041db8bc68f034648453128e5785ea83c8e80da36d94497a4d71ae1e9020d2fc96c236adf86b7cb5883e8ec44a5ef4ffb465c1f603b66205877cf30fb1",
+                "last_used_at": "2019-12-05T02:10:31.576809+00:00",
+                "last_used_ip": "192.168.0.210",
+                "token": "e9be58fbca25ed64581f7cfba0156ff594b48dfc2a218d56050794d7b41d50e3417c093cd9b9350db5952be136d061b0943700a14ceeab4f39920c002d081d4c",
+                "token_type": "normal",
+                "user_id": "574e81f8f32f4ef3afeb18eb0c11027b"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://hobbs.duckdns.org:8123/",
+                "client_name": null,
+                "created_at": "2019-12-05T02:24:32.053699+00:00",
+                "id": "d8650c95da3144a294c968cf4840d3e2",
+                "jwt_key": "3efc170918e8a0c5b143af40f812484095344e4a54027c73eba8f94c8407f8442c0532b5bf803d6962b166fcc54d829410c8380260c0440d2d73551a8ccd85d1",
+                "last_used_at": "2019-12-05T04:57:41.201755+00:00",
+                "last_used_ip": "192.168.0.1",
+                "token": "9c37fb383df6454fe970b96c821539c5c3a954a985b91ec07d19d017a14c7c22739fa9b4e4bd67cdd09f1e691bcbe972f68df1eb1ed60cc69d6ccb43ede94ec3",
+                "token_type": "normal",
+                "user_id": "574e81f8f32f4ef3afeb18eb0c11027b"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://hobbs.duckdns.org:8123/",
+                "client_name": null,
+                "created_at": "2019-12-05T02:30:15.051501+00:00",
+                "id": "30505bb1fa6f4f46b41d5a049426b16c",
+                "jwt_key": "8a60e22a96d717189746f8a35fc118ff9b68625f9057f2d7c8f14770123586763817cc56cb8a132171fcde41fe0fa6e4498f701900dda174e8176ef163a988a7",
+                "last_used_at": "2019-12-05T02:30:15.051847+00:00",
+                "last_used_ip": "192.168.0.1",
+                "token": "149f3d5930d7d135af485732c489c2a06d1bb10324d4096a118412039b7cd18614b2f99d82cf4eccfa71df244dfa2d26a47009d922dd945abf7bee3e2c7cbd91",
+                "token_type": "normal",
+                "user_id": "574e81f8f32f4ef3afeb18eb0c11027b"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://home-assistant.io/iOS",
+                "client_name": null,
+                "created_at": "2019-12-05T02:33:21.679733+00:00",
+                "id": "913ecb6d0f424deaaabc68065fe61038",
+                "jwt_key": "68986c7dc5e7280f773cfe40340b98cfcb7db54baa69924703db590148025e270b1cf2d4b4a61564b9b91131bc52e07937b38407483102b83a0e0503bd6b1381",
+                "last_used_at": "2019-12-05T04:24:37.304187+00:00",
+                "last_used_ip": "192.168.0.1",
+                "token": "32661ad21bf8cc1ddae9dddaf7f2842bf0bf6be56bedf394109a4ea2c17763829c811533549ad2ce266e8db52d2b32046d05d884db6db2ebd49c7be2caf82eeb",
+                "token_type": "normal",
+                "user_id": "574e81f8f32f4ef3afeb18eb0c11027b"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://hobbs.duckdns.org:8123/",
+                "client_name": null,
+                "created_at": "2019-12-05T02:37:39.500130+00:00",
+                "id": "342263363bcc4fd2b28702f00cdc2243",
+                "jwt_key": "2f95a3a10dbfbecc79a6b3b2b034ae79b1388d07e3bfa35c56e62edb644c4f64cc0af83bd507a0d3a07e55bd48e2fb2812f0ff06ec0760b6d8d72163977f4eea",
+                "last_used_at": "2019-12-05T02:37:39.500474+00:00",
+                "last_used_ip": "192.168.0.1",
+                "token": "24344b2466c714986c1916bc262e4f9c45e31951e31771e92ebcc539c20b3ee042dfa2a110bf16c0caa22076ecbc1bc70fc4093aa2b81ffac6320049f2e5c4d4",
+                "token_type": "normal",
+                "user_id": "574e81f8f32f4ef3afeb18eb0c11027b"
+            }
+        ],
+        "users": [
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "91bf66d5f1c74c2ca6e80aa19740fddd",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Home Assistant Cloud",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "61b0d2025cab43a39d0f01c14d3ec251",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Hass.io",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "574e81f8f32f4ef3afeb18eb0c11027b",
+                "is_active": true,
+                "is_owner": true,
+                "name": "tim",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

@@ -1,0 +1,16 @@
+{
+    "data": {
+        "persons": [
+            {
+                "device_trackers": [
+                    "device_tracker.tims_iphone_x"
+                ],
+                "id": "a734f875a0ee4014a81ec47d85479faf",
+                "name": "tim",
+                "user_id": "574e81f8f32f4ef3afeb18eb0c11027b"
+            }
+        ]
+    },
+    "key": "person",
+    "version": 1
+}

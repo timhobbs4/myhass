@@ -1,0 +1,52 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [
+                    "8332f87e6271492997b4abc75ad8937f"
+                ],
+                "connections": [],
+                "id": "e3bfdd2b9b3e4d758b5bf44b8bca4260",
+                "identifiers": [
+                    [
+                        "webhook_id",
+                        "d60530e964fa78b9556ec1a77bfea146a7958d87f2b4e8f352b16a64eb8fa520"
+                    ],
+                    [
+                        "device_id",
+                        "1a244bb20a804534938084060ae8d088"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone X",
+                "name": "Tim\u2019s iPhone X",
+                "name_by_user": null,
+                "sw_version": "13.2.3",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "8332f87e6271492997b4abc75ad8937f"
+                ],
+                "connections": [],
+                "id": "c67e364d416542368fcbb4a5ae97c7df",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "1a244bb20a804534938084060ae8d088"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone X",
+                "name": null,
+                "name_by_user": null,
+                "sw_version": "13.2.3",
+                "via_device_id": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}
